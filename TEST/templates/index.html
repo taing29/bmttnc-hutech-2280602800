@@ -6,9 +6,10 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://file1.hutech.edu.vn/file/editor/homepage/stories/hinh34/logo%20CMYK-01.png" alt="hutech" style="display: block; margin-left: auto; margin-right: auto; width: 30%;">
-        <h4 style="font-weight: bold; text-align: center;">BÀI THỰC HÀNH BẢO MẬT THÔNG TIN NÂNG CAO</h4>
-        <h4 style="text-align: center;">Nguyễn Hữu Tài 2280602800 Hello World !</h4>
+        <img src="{{ url_for('static', filename='images/logohutech.jpg') }}" alt="hutech" style="display: block; margin-left: auto; margin-right: auto; width: 30%;">
+        <img src="{{ url_for('static', filename='images/encoded_image.png') }}" alt="hutech30nam" style="display: block; margin-left: auto; margin-right: auto; width: 30%;">
+        <h4 style="font-weight: bold; text-align: center;">BÀI KIỂM TRA KẾT THÚC MÔN HỌC: THBMTTNC</h4>
+        <h4 style="text-align: center;">Nguyễn Hữu Tài 2280602800 FF !</h4>
         <ul class="list-group">
             <li class="list-group-item">
                 <a href="/caesar"><i class="fas fa-lock"></i> Caesar Cipher</a>
